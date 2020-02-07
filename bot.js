@@ -11,10 +11,8 @@ client.on('ready', () => {
 
 //gamestatus von code
 client.on('ready', () => {
-  client.user.setActivity("With Code (Main.js)", {type: "PLAYING"});
+  client.user.setActivity("With Code (bot.js)", {type: "PLAYING"});
 })
-
-
 
 //verbindet sich mit den client aka bot
 client.login("Njc1MzU5Njc3MzkxMDQ0NjEz.Xj2EMg.fjTCvl7UMDt-ilvn3oBRfOzhVoM");
