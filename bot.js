@@ -17,4 +17,4 @@ client.on('ready', () => {
 
 
 //verbindet sich mit den client aka bot
-client.login("Njc1MzU5Njc3MzkxMDQ0NjEz.Xj1_yQ.74AGSwa1ysv2hQ2hyrSQC827cmI");
+client.login("Njc1MzU5Njc3MzkxMDQ0NjEz.Xj2CMg.apEU3NxMeM6aq-q5Ay0NnqT8J9s");
