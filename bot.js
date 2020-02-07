@@ -54,4 +54,4 @@ client.on('message',function(msg){
 
 
 //verbindet sich mit den client aka bot
-client.login("NjYxMjQxNTE2OTkxNDQ3MDgy.XjsLJg.F4DcPUTNwqsHCEfNsWbajAutyIw");
+client.login("Njc1MzU5Njc3MzkxMDQ0NjEz.Xj1_yQ.74AGSwa1ysv2hQ2hyrSQC827cmI");
