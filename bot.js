@@ -15,43 +15,6 @@ client.on('ready', () => {
 })
 
 
-//antwortet nicht auf seine nachrichten
-client.on('message', (receivedMessage) => {
-  if(receivedMessage.author == client.user) {
-    return
-  }
-})
-
-client.on('message',function(msg){
-    
-    var prefix = "+";
-
-    
-    if(!msg.content.startsWith(prefix)) return;
-
-    const args = msg.content.slice(1).trim().split(/ +/g);
-
-    const command = args.shift().toLowerCase();
-
-    if(command === "hallo") {
-        msg.channel.send("Leon ist ein sehr dummes kind! xD");
-    }
-    if(command === "uff") {
-        msg.channel.send("Leon lern java weiter! xD");
-    }
-    if(command === "leonie") {
-        msg.channel.send("leon java lernen sonst kommt klara xD");
-    }
-    if(command === "bot") {
-        msg.channel.send(msg.author+",wie gehts?");
-    }
-    if(command === "ping") {
-      msg.channel.send("Poonnnnnggggg");
-    }
-    
-    
-})
-
 
 //verbindet sich mit den client aka bot
 client.login("Njc1MzU5Njc3MzkxMDQ0NjEz.Xj1_yQ.74AGSwa1ysv2hQ2hyrSQC827cmI");
